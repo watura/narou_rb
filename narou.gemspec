@@ -32,10 +32,10 @@ Gem::Specification.new do |gem|
   install_message = <<-EOS
 #{"*" * 60}
 
-3.9.1: 2024-09-19
+3.9.2: 2025-11-11
 -----------------
 #### 修正内容
-- 小説家になろうの目次修正に対応 #432 @etg-lt
+- 小説家になろうの目次・作品情報ページのレイアウト変更に追従
 
 #{"*" * 60}
   EOS
@@ -75,4 +75,3 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'awesome_print', '~> 1.8'
   gem.add_development_dependency 'simplecov', '~> 0.20'
 end
-
